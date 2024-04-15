@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tax Calculationr</title>
+    <title>Tax Calculation</title>
     </head>
     <body>
 
-    <h1>Tax Calculator</h1>
+    <h1>Tax Calculation</h1>
   
       <form id="taxForm">
       <label for="grossincome">Enter Gross         Annual Income:<i class="fa-solid fa-question"></i></label><br>
@@ -24,11 +24,12 @@
 class="error-icon"id="extraIncomeError">!</span><br>
      
         <label for="deductions">Enter total applicable deductions</label>
-       <input type="text" placeholder="Add total applicable deductions"id="deductions" name="deductions"><span class="error-icon" id="deductionsError">!</span><br>
+       <input type="text" placeholder="Add total applicabledeductions"id="deductions" name="deductions"><span class="error-icon" id="deductionsError">!</span><br>
        
        
         <label for="age">Enter Age Group:</label><br>
-        <select id="age" name="age"><option value="" disabled selected>Select age group</option><option value="<40">&lt;40</option><option value="≥ 40 &lt; 60">&ge; 40 &lt; 60</option><option value="≥ 60">&ge; 60</option></select>
+        <select id="age"name="age"><option value="" disabled selected>Select age group</option>
+<option value="<40">&lt;40</option><option value="≥ 40 &lt; 60">&ge; 40 &lt; 60</option><option value="≥ 60">&ge; 60</option></select>
         
         <span class="error-icon" id="ageError">!</span><br>
         
@@ -42,3 +43,5 @@ class="error-icon"id="extraIncomeError">!</span><br>
             <p id="finalTax"></p>
         </div>
     </div>
+</body>
+</html>
