@@ -3,33 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tax Calculation</title>
-    </head>
-    <body>
-
-    <h1>Tax Calculation</h1>
-  
-      <form id="taxForm">
-      <label for="grossincome">Enter Gross         Annual Income:<i class="fa-solid fa-question"></i></label><br>
-
-     <input type="text" placeholder="Enter GrossAnnualincome"id="grossIncome"name="grossIncome">
-
-<spanclass="error-icon"id="grossIncomeError">!</span><br>
+    <title>Tax Calculationr</title>
+</head>
+<body>
+    <h1>Tax Calculator</h1>
+    
+    <form id="taxForm">
+        <label for="grossincome">Enter Gross Annual Income:<i class="fa-solid fa-question"></i></label><br>
+        <input type="text" placeholder="Enter Gross Annual income"id="grossIncome"name="grossIncome"><span class="error-icon"id="grossIncomeError">!</span><br>
         
-      <label for="extraIncome">Enter extra Income:</label><br>
-
-     <input type="text"placeholder="Enter extraincome"id="extraIncome"name="extraIncome">
-<span
-
-class="error-icon"id="extraIncomeError">!</span><br>
+        <label for="extraIncome">Enter extra Income:</label><br>
+     <input type="text"placeholder="Enter extra income"id="extraIncome" name="extraIncome"><span class="error-icon" id="extraIncomeError">!</span><br>
      
         <label for="deductions">Enter total applicable deductions</label>
-       <input type="text" placeholder="Add total applicabledeductions"id="deductions" name="deductions"><span class="error-icon" id="deductionsError">!</span><br>
+       <input type="text" placeholder="Add total applicable deductions"id="deductions" name="deductions"><span class="error-icon" id="deductionsError">!</span><br>
        
        
         <label for="age">Enter Age Group:</label><br>
-        <select id="age"name="age"><option value="" disabled selected>Select age group</option>
-<option value="<40">&lt;40</option><option value="≥ 40 &lt; 60">&ge; 40 &lt; 60</option><option value="≥ 60">&ge; 60</option></select>
+        <select id="age" name="age"><option value="" disabled selected>Select age group</option><option value="<40">&lt;40</option>
+<option value="≥ 40 &lt; 60">&ge; 40 &lt; 60</option>
+<option value="≥ 60">&ge; 60</option></select>
         
         <span class="error-icon" id="ageError">!</span><br>
         
