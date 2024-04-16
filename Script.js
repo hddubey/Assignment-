@@ -3,8 +3,7 @@
             document.querySelectorAll('.error-icon').forEach(icon => icon.style.display = 'none');
             var isValid = ['grossIncome', 'extraIncome', 'deductions'].every(field => {
                 if (isNaN(parseFloat(document.getElementById(field).value))) {
-                    document.getElementById(field + 'Error').style.display = 'inline';
-                    return false;
+                    document.getElementById(field'Error').style.display = 'inline'; return false;
                 }
                 return true;
             });
